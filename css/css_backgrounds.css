@@ -1,0 +1,49 @@
+
+body {
+    background-image:url("../img/robco.png");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    margin-left: 300px;
+}
+
+/*ini adalah background shorthand
+{
+    background-image:url("../img/robco.png") repeat fixed;
+    margin-left: 300px; 
+}*/
+
+
+div {
+    background-color: yellow;
+}
+
+div.first {
+    opacity: 0.1;
+}
+
+div.second {
+    opacity: 0.2;
+}
+
+div.third {
+    opacity: 0.7;
+}
+
+.bimg {
+    background-image:url("../img/boum.png") ;
+    width: 1280;
+    height: 720;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bimg2 {
+    background-image:url("time.png") ;
+    color: white;
+}
+
+.jk {
+    background-image: url("../img/clarkson.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+  }

@@ -1,0 +1,88 @@
+p.dot {
+    border-style: dotted;
+    border-color: green;
+}
+
+p.dash {
+    border-style: dashed;
+    border-color: blue;
+}
+
+p.solid {
+    border-style: solid;
+    border-color: silver;
+}
+
+p.db{
+    border-style: double;
+    border-color: silver;
+}
+
+p.grve {
+    border-style: groove;
+    border-color: silver;
+}
+
+p.ridge {
+    border-style: ridge;
+    border-color: silver;
+}
+
+p.inset {
+    border-style: inset;
+    border-color: silver;
+}
+
+p.outset {
+    border-style: outset;
+    border-color: silver;
+}
+
+p.n {
+    border-style: none;
+}
+
+p.hid{
+    border-style: hidden;
+    border-color: silver;
+}
+
+p.mix{
+    border-style: dotted dashed solid double;
+    border-color: silver;
+}
+
+p.wid{
+    border-style: solid;
+    border-width: 9px;
+    border-color: silver;
+}
+
+p.varwid{
+    border-style: solid;
+    border-width: 42px 7px 4px 7px;
+    border-color: silver;
+}
+
+p.varcolor{
+    border-style: solid;
+    border-width: thick;
+    border-color: green blue yellow red;
+}
+
+p.varder{
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-left-style: double;
+    border-bottom-style: none;
+}
+
+p.short{
+    border: 12px solid gold;
+}
+
+p.round{
+    border: 7px solid green;
+    border-radius: 6px;
+    background-color: black;
+}

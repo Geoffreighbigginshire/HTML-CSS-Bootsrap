@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+th.tb7{
+    padding: 18px;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+}
+
+td.tb5{
+    padding: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+td.tb1{
+    padding: 18px;
+    text-align: left;
+}
+
+tr.tb2:nth-child(even){
+    background-color: green;
+    color: black;
+}
+
+td.tb3{
+    padding: 18px;
+    text-align: right;
+}
+
+

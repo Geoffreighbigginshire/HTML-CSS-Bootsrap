@@ -1,0 +1,59 @@
+div.visible {
+    width: 720px;
+    height: 80px;
+    background-color:gray;
+    overflow: visible;
+}
+
+div.hidden {
+    top: 3px;
+    position: relative;
+    width: 720px;
+    height: 80px;
+    background-color:green;
+    overflow: hidden;
+    font-family: monofonto;
+}
+
+div.scroll {
+    top: 4px;
+    position: relative;
+    background-color: black;
+    color: green;
+    width: 500px;
+    height: 90px;
+    overflow: scroll;
+}
+
+div.auto {
+    top: 4px;
+    position: relative;
+    background-color: blue;
+    color:green;
+    width: 500px;
+    height: 90px;
+    overflow: auto;
+}
+
+
+div.xy {
+    top: 4px;
+    position: relative;
+    background-color: beige;
+    color:blue;
+    width: 700px;
+    height: 100px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+div.float {
+    top: 4px;
+    position: relative;
+    background-color: blue;
+    color:hotpink;
+    width: 500px;
+    height: 90px;
+    overflow: auto;
+}
+

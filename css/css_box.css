@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: green;
+    font-family: monofonto;
+}
+
+
+div.b1 {
+    width: 250px;
+    border: solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+div.b2{
+    width:220px;
+    border: dotted green;
+    padding: 5px;
+    margin: 10px;
+
+
+}

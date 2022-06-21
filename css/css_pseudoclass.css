@@ -1,0 +1,33 @@
+a.one:link{
+    background-color: steelblue;
+    color: blue;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+a.one:hover{
+    background-color: gray;
+    color: red;
+}
+
+a.one:active{
+    background-color: blueviolet;
+    color: black;
+}
+
+a.one:visited{
+    color: white;
+}
+
+p.tooltip{
+    display: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+div.tooltip_container:hover p{
+    display: block;
+}

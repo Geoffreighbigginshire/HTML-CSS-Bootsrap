@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color:green;
+}
+
+li{
+    display:inline;
+}
+
+a.blc{
+    display: block;
+}
+
+h1.hid{
+    display: none;
+}
+
+div.ein{
+    border: 1px solid;
+}

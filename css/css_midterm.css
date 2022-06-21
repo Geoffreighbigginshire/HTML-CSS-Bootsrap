@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    color: green;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar1{
+    background-color: black;
+    color:green;
+}
+
+.header, .footer {
+    background-color:green;
+    color: black;
+    padding: 20px;
+    width: 100%;
+    font-family: monospace;
+    font-family: bold;
+}
+
+.column1 {
+    float: left;
+    padding: 25px;
+    width:15%;
+    font-family: monospace;
+}
+
+.column2 {
+    float: right;
+    padding: 35px;
+    width: 15%;
+    font-family: monospace;
+}
+
+.column3 {
+    float:inherit;
+    padding: 3px;
+    width: 15%;
+    font-family: monospace;
+}
+
+.column6 {
+    float: left;
+    padding: 2px;
+    width:5%;
+    font-family: monospace;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: 35%;
+}
+
+.column-main-content{
+    width: 60%;
+    font-style: Monofonto;
+}
+
+.ads{
+    width: 15%;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: green;
+    color: black;
+}
+
+.menu li:hover {
+    background-color: black;
+    color:green;
+}
+
+.iklan ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 6px;
+}
+
+
+.menu li :hover {
+    background-color:green;
+    color:black;
+}

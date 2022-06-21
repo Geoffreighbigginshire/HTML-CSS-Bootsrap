@@ -1,0 +1,35 @@
+ul.a{
+    list-style-type: circle;
+}
+
+ul.b{
+    list-style-type: square;
+}
+
+ol.d{
+    list-style-type: lower-alpha;
+}
+
+ol.e{
+    list-style-type: upper-roman;
+}
+
+ul.f{
+    list-style-type: url("../img/lst.png");
+}
+
+ul.g{
+    list-style-type: circle;
+    list-style-position: inside;
+    background: #ff9831;
+}
+
+ul.g li{
+    background: #bb1234;
+}
+
+ul.j{
+    list-style-type: circle;
+    list-style-position: outside;
+    background: chartreuse;
+}

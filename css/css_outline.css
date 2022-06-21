@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: green;
+    font-family: monofonto;
+}
+
+
+P{
+    border: 5px solid green;
+    outline: green solid 5px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}

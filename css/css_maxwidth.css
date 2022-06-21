@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: green;
+}
+
+div.e1{
+    width: 500px;
+    margin: auto;
+    border: 3px solid #73ad21;
+}
+
+div.e2{
+    max-width: 720px;
+    margin: auto;
+    border: 3px solid #73ad21;
+}

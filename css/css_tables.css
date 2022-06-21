@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: green;
+    font-family: monofonto;
+}
+
+th.one, td.one{
+    padding: 18px;
+    text-align: center;
+}
+
+th.t2, td.t2{
+    padding: 18px;
+    text-align: center;
+    border-bottom: 1px dotted green;
+}
+
+tr.t3:hover{
+    background-color:green;
+    color: black;
+    padding: 18px;
+    width: 12%;
+}
+
+tr.t4:nth-child(even){
+    background-color: green;
+    color: black;
+}
+
+table.t6{
+    border-collapse: collapse;
+    width: 120%;
+}
+
+th.t7, td.t7{
+    text-align: left;
+    padding: 6px;
+}
+
+tr.t8:nth-child(even){
+    background-color: green;
+    color: black;
+}
+
+
